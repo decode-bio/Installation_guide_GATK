@@ -36,6 +36,24 @@ OUTPUT
 
 Now once unzip is complete, we can now see the following contents under the directory
 <img width="1504" height="82" alt="image" src="https://github.com/user-attachments/assets/df62cf73-f8d2-49ee-b80f-9a7ec050ecd3" />
-Now can use the GATK using the path to your tools.
+# GATK
+Now have to export the path into your .bashrc file at the end like below
+<img width="900" height="744" alt="image" src="https://github.com/user-attachments/assets/0a586933-6896-4311-94d8-83b7ef808d3f" />
+Save the changes and run the script by using the following command
+```
+source ~./bashrc
+```
+<img width="934" height="145" alt="image" src="https://github.com/user-attachments/assets/65bab393-5d96-4989-a794-13d3b3bacf10" />
+
+Even after my setup not showing response against gatk command.So, I am using the alternative command to check for gatk installation
+
+```
+python3 ~/Tools/gatk-4.6.2.0/gatk
+```
+<img width="1437" height="489" alt="image" src="https://github.com/user-attachments/assets/6535e373-6b82-4638-b7f4-91c948181b4d" />
+Now I will be using the above command to use the gatk tools for the variant analysis.
+
+
+
 ---
 Thanks and happy decoding.
